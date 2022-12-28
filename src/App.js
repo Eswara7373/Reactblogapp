@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import "./Pages/Style.css"
+import { BrowserRouter, Route, Routes} from "react-router-dom"
+import Home from "./components/Home"
+import Bollywood from "./components/Bollywood";
+import Technology from "./components/Technology";
+import Fitness from "./components/Fitness";
+import Hollywood from "./components/Hollywood";
+import Food from "./components/Food";
+import Homebox from "./components/Homebox";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+      <div className="App">
+        <BrowserRouter>
+          <Home />
+          <Routes>
+            <Route path="/" element= {<Homebox />} />
+            <Route path="/Homebox" element= {<Homebox />} />
+            <Route path="/bollywood" element={<Bollywood />} />
+            <Route path="/technology" element={<Technology />} />
+            <Route path="/hollywood" element={<Hollywood />} />
+            <Route path="/fitness" element={<Fitness />} />
+            <Route path="/food" element={<Food />} />
+
+          </Routes>
+        </BrowserRouter>
+      </div>
   );
 }
 
