@@ -8,14 +8,14 @@ const Fitness = () => {
       <div id='hr21'>
         <img src={fittydata[0].ImageAsset} alt="" className='ltimg1' />
         <div className="latbox">
-        <p><Link to='/Fitness-data'>{fittydata[0].Title}</Link></p>
+        <p><Link to='/Fitnessdata'>{fittydata[0].Title}</Link></p>
           <p >{fittydata[0].BlogContent}</p>
         </div>
       </div>
       <div id='hr22'>
         <img src={fittydata[1].ImageAsset} alt="" className='ltimg1' />
         <div className="latbox">
-        <p><Link to='/Fitness-data'>{fittydata[1].Title}</Link></p>
+        <p><Link to='/Fitnessdata2'>{fittydata[1].Title}</Link></p>
           <p >{fittydata[1].BlogContent}</p>
         </div>
       </div>
@@ -27,14 +27,14 @@ const Fitness = () => {
 
       <div className='sidebox21' >
         <img src={fittydata[0].ImageAsset} alt="" width='280px' height='200px' />
-        <p><Link to='/Fitness-data'>{fittydata[0].Title}</Link></p>
+        <p><Link to='/Fitnessdata'>{fittydata[0].Title}</Link></p>
         <p>{fittydata[0].BlogContent}</p>
         <p>{fittydata[0].PublishedDate}</p>
         <hr /></div>
 
       <div className='sidebox32' >
         <img src={fittydata[1].ImageAsset} alt="" width='280px' height='200px' />
-        <p><Link to='/Fitness-data'>{fittydata[1].Title}</Link></p>
+        <p><Link to='/Fitnessdata2'>{fittydata[1].Title}</Link></p>
         <p>{fittydata[1].BlogContent}</p>
         <p>{fittydata[1].PublishedDate}</p>
         <hr /></div>

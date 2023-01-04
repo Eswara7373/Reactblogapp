@@ -8,14 +8,14 @@ const Hollywood = () => {
     <div id='hr21'>
       <img src={hollydata[0].ImageAsset} alt="" className='ltimg1' />
       <div className="latbox">
-      <p><Link to='/Hollywood-data'>{hollydata[0].Title}</Link></p>
+      <p><Link to='/Hollywooddata'>{hollydata[0].Title}</Link></p>
         <p >{hollydata[0].BlogContent}</p>
       </div>
     </div>
     <div id='hr22'>
       <img src={hollydata[1].ImageAsset} alt="" className='ltimg1' />
       <div className="latbox">
-      <p><Link to='/Hollywood-data'>{hollydata[1].Title}</Link></p>
+      <p><Link to='/Hollywooddata2'>{hollydata[1].Title}</Link></p>
         <p >{hollydata[1].BlogContent}</p>
       </div>
     </div>
@@ -27,14 +27,14 @@ const Hollywood = () => {
 
     <div className='sidebox21' >
       <img src={hollydata[0].ImageAsset} alt="" width='280px' height='200px' />
-      <p><Link to='/Hollywood-data'>{hollydata[0].Title}</Link></p>
+      <p><Link to='/Hollywooddata'>{hollydata[0].Title}</Link></p>
       <p>{hollydata[0].BlogContent}</p>
       <p>{hollydata[0].PublishedDate}</p>
       <hr /></div>
 
     <div className='sidebox32' >
       <img src={hollydata[1].ImageAsset} alt="" width='280px' height='200px' />
-      <p><Link to='/Hollywood-data'>{hollydata[1].Title}</Link></p>
+      <p><Link to='/Hollywooddata2'>{hollydata[1].Title}</Link></p>
       <p>{hollydata[1].BlogContent}</p>
       <p>{hollydata[1].PublishedDate}</p>
       <hr /></div>

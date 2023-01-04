@@ -2,7 +2,6 @@ import { datas } from "./Api"
 import { Link } from "react-router-dom"
 import {fooddata} from "./Api"
 import {fittydata} from "./Api"
-
 const Homebox = () => {
   return (
     <>
@@ -20,7 +19,7 @@ const Homebox = () => {
       <div className='container'>
         <div className='boxdetails'>
           <img src={datas[0].ImageAsset} alt="" height='250px' width='300px' />
-          <h4><Link to='/bollywood-data'>{datas[0].Title}</Link></h4>
+          <h4><Link to='/bollywooddata'>{datas[0].Title}</Link></h4>
           <p>{datas[0].BlogContent}</p>
           <p>{datas[0].PublishedDate}</p>
         </div>
@@ -28,7 +27,7 @@ const Homebox = () => {
       <div className='container2'>
         <div className='boxdetails2'>
           <img src={datas[1].ImageAsset} alt="" height='250px' width='300px' />
-          <h4><Link to='/bollywood-data'>{datas[1].Title}</Link></h4>
+          <h4><Link to='/bollywooddata2'>{datas[1].Title}</Link></h4>
           <p>{datas[1].BlogContent}</p>
           <p>{datas[1].PublishedDate}</p>
         </div>
@@ -36,7 +35,7 @@ const Homebox = () => {
       <div className='container3'>
         <div className='boxdetails3'>
           <img src={fooddata[2].ImageAsset} alt="" height='250px' width='300px' />
-          <h4><Link to='/food-data'>{fooddata[2].Title}</Link></h4>
+          <h4><Link to='/Fooddata'>{fooddata[2].Title}</Link></h4>
           <p>{fooddata[2].BlogContent}</p>
           <p>{fooddata[2].PublishedDate}</p>
         </div>

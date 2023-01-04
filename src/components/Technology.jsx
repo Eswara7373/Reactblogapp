@@ -8,14 +8,14 @@ const Technology = () => {
       <div id='hr21'>
         <img src={techdata[0].ImageAsset} alt="" className='ltimg1' />
         <div className="latbox">
-        <p><Link to='/Technology-data'>{techdata[0].Title}</Link></p>
+        <p><Link to='/Technologydata'>{techdata[0].Title}</Link></p>
           <p >{techdata[0].BlogContent}</p>
         </div>
       </div>
       <div id='hr22'>
         <img src={techdata[1].ImageAsset} alt="" className='ltimg1' />
         <div className="latbox">
-        <p><Link to='/Technology-data'>{techdata[1].Title}</Link></p>
+        <p><Link to='/Technologydata2'>{techdata[1].Title}</Link></p>
           <p >{techdata[1].BlogContent}</p>
         </div>
       </div>
@@ -27,14 +27,14 @@ const Technology = () => {
 
       <div className='sidebox21' >
         <img src={techdata[0].ImageAsset} alt="" width='280px' height='200px' />
-        <p><Link to='/Technology-data'>{techdata[0].Title}</Link></p>
+        <p><Link to='/Technologydata'>{techdata[0].Title}</Link></p>
         <p>{techdata[0].BlogContent}</p>
         <p>{techdata[0].PublishedDate}</p>
         <hr /></div>
 
       <div className='sidebox32' >
         <img src={techdata[1].ImageAsset} alt="" width='280px' height='200px' />
-        <p><Link to='/Technology-data'>{techdata[1].Title}</Link></p>
+        <p><Link to='/Technologydata2'>{techdata[1].Title}</Link></p>
         <p>{techdata[1].BlogContent}</p>
         <p>{techdata[1].PublishedDate}</p>
         <hr /></div>
